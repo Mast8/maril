@@ -81,6 +81,7 @@ header .navbar a{
 
 header .navbar a:hover{
     color:var(--pink);
+    background: grey;
 }
 
 header .icons a{
@@ -111,7 +112,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url(../images/home-bg.jpg) no-repeat;
+    background:url(../images/partybackground.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -122,7 +123,7 @@ header .fa-bars{
 
 .home .content h3{
     font-size: 6rem;
-    color:#333;
+    color:rgb(170, 87, 143);
 }
 
 .home .content span{
@@ -466,6 +467,9 @@ header .fa-bars{
     color:var(--pink);
 }
 
+.footer .box-container .contact{
+    text-align: center;
+}
 
 
 
@@ -526,6 +530,10 @@ header .fa-bars{
         border:.1rem solid rgba(0,0,0,.1);
         display: block;
     }
+
+    /* header .navbar a:hover{
+        background: black;
+    } */
 
     .home .content h3{
         font-size: 5rem;
