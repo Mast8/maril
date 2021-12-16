@@ -471,6 +471,19 @@ header .fa-bars{
     text-align: center;
 }
 
+.footer .map {
+
+    text-align: center;
+}
+
+.footer .map .iframe{
+    width:"90%" ;
+    height:"450" ; 
+   border:0 ;
+    
+
+}
+
 
 
 
