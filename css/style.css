@@ -1,5 +1,10 @@
 :root{
     --pink:#e84393;
+    --white-smoke: #f0f0f0;
+    --black: #191b17;
+    --mount-meadow: #1bbc9c;
+    --transition: all 0.5s ease-in-out;
+
 }
 
 *{
@@ -34,6 +39,12 @@ section{
 
 .heading span{
     color:var(--pink);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn{
@@ -206,6 +217,7 @@ header .fa-bars{
     padding:2rem;
     display: flex;
     align-items: center;
+    border-radius: 4%;
     flex:1 1 25rem;
 }
 
@@ -420,6 +432,7 @@ header .fa-bars{
     resize: none;
 }
 
+
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -472,11 +485,32 @@ header .fa-bars{
 }
 
 .footer .map {
-
     text-align: center;
 }
+.footer .map iframe{
+    margin:2rem;
+    width: 90%;
+}
 
-
+.footer-links{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6rem;
+}
+.footer-links a{
+    color: blue;
+    opacity: 0.8;
+    width: 50px;
+    height: 50px;
+    margin: 0 0.2rem;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+.footer-links a:hover{
+    background: blue;
+    color: var(--white-smoke);
+}
 
 
 
@@ -558,6 +592,7 @@ header .fa-bars{
 
 @media (max-width:450px){
     
+
     html{
         font-size: 50%;
     }
@@ -566,4 +601,5 @@ header .fa-bars{
         font-size: 3rem;
     }
 
+    
 }
