@@ -25,7 +25,8 @@ html{
 }
 
 section{
-    padding:2rem 9%;
+    padding:0rem 9%;
+    
 }
 
 .heading{
@@ -33,7 +34,7 @@ section{
     font-size: 4rem;
     color:#333;
     padding:1rem;
-    margin:2rem 0;
+    margin: 8rem 0;
     background:rgba(255, 51, 153,.05);
 }
 
@@ -537,7 +538,7 @@ header .fa-bars{
     }
 
     section{
-        padding:2rem;
+        padding: 2rem;
     }
 
     .home{
