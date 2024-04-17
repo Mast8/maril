@@ -42,11 +42,7 @@ section{
     color:var(--pink);
 }
 
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .btn{
     display: inline-block;
@@ -215,6 +211,7 @@ header .fa-bars{
 .icons-container .icons{
     background:#fff;
     border:.1rem solid rgba(0,0,0,.1);
+
     padding:2rem;
     display: flex;
     align-items: center;
@@ -413,24 +410,15 @@ header .fa-bars{
     width: 100%;
 }
 
-.contact .row form .box{
-    padding:1rem;
-    font-size: 1.7rem;
-    color:#333;
-    text-transform: none;
-    border:.1rem solid rgba(0,0,0,.1);
-    border-radius: .5rem;
-    margin:.7rem 0;
-    width: 100%;
-}
 
-.contact .row form .box:focus{
-    border-color: var(--pink);
-}
-
-.contact .row form textarea{
-    height: 15rem;
-    resize: none;
+.icons{
+    text-align: center;
+ 
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
 
 
@@ -487,6 +475,7 @@ header .fa-bars{
 
 .footer .map {
     text-align: center;
+    display: flex;
 }
 .footer .map iframe{
     margin:2rem;
@@ -512,6 +501,7 @@ header .fa-bars{
     background: blue;
     color: var(--white-smoke);
 }
+
 
 
 
@@ -587,6 +577,10 @@ header .fa-bars{
     
     .icons-container .icons span{
         font-size: 1.7rem;
+    }
+    
+    .footer .map {
+        display: block;
     }
     
 }
