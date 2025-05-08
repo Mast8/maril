@@ -134,13 +134,42 @@ header .fa-bars{
     max-width: 50rem;
 }
 
+.home .content h1{
+    font-size: 4rem;
+    color:rgb(170, 87, 143);
+}
+
 .home .content h3{
     font-size: 3rem;
     color:rgb(170, 87, 143);
 }
 
+/* icons */
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-brands{
+    padding-right: 10px;
+    color: rgb(65, 18, 147);
+    font-size: 5rem;
+}
+
+.fa-brands:hover{
+    color: rgb(170, 87, 143);
+    
+}
+
+/* p */
+
+.mainContent {
+    
+}
+
 .home .content span{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color:var(--pink);
     padding:1rem 0;
     line-height: 1.5;
