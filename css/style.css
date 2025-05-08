@@ -152,14 +152,22 @@ header .fa-bars{
     justify-content: center;
 }
 
-.fa-brands{
+.fa-brands, .fa-solid{
     padding-right: 10px;
     color: var(--pink2);
     font-size: 5rem;
 }
 
-.fa-brands:hover{
-    color: rgb(170, 87, 143);
+.fa-solid{
+    padding-right: 10px;
+    color: var(--pink2);
+    font-size: 4.8rem;
+}
+
+
+.fa-brands:hover, .fa-solid:hover{
+    color: rgb(156, 137, 150);
+    
     
 }
 
@@ -525,7 +533,7 @@ header .fa-bars{
     justify-content: center;
     margin-top: 1.6rem;
 }
-.footer-links a{
+/* .footer-links a{
     color: blue;
     opacity: 0.8;
     width: 50px;
@@ -534,10 +542,11 @@ header .fa-bars{
     border-radius: 50%;
     transition: var(--transition);
 }
+
 .footer-links a:hover{
     background: blue;
     color: var(--white-smoke);
-}
+} */
 
 
 
