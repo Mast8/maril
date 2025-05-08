@@ -1,5 +1,6 @@
 :root{
     --pink:#e84393;
+    --pink2:#9e225e;
     --white-smoke: #f0f0f0;
     --black: #191b17;
     --mount-meadow: #1bbc9c;
@@ -153,7 +154,7 @@ header .fa-bars{
 
 .fa-brands{
     padding-right: 10px;
-    color: rgb(65, 18, 147);
+    color: var(--pink2);
     font-size: 5rem;
 }
 
@@ -165,22 +166,21 @@ header .fa-bars{
 /* p */
 
 .mainContent {
-    
+    font-size: 2.6rem;
+    color: #660936;
+    padding:1rem 0;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .home .content span{
-    font-size: 3rem;
-    color:var(--pink);
-    padding:1rem 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.6rem;
+    color:var(--pink2);
+    padding: 1rem 0;
     line-height: 1.5;
 }
 
-.home .content p{
-    font-size: 1.5rem;
-    color:#999;
-    padding:1rem 0;
-    line-height: 1.5;
-}
 
 .about .row{
     display: flex;
