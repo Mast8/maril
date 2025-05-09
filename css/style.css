@@ -581,6 +581,10 @@ img {
 }
 
 @media (max-width:768px){
+    header {
+        flex-direction: row-reverse;
+    }
+    
 
     header .fa-bars{
         display: block;
@@ -595,10 +599,12 @@ img {
     }
 
     header #toggler:checked ~ .navbar{
+        
         clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
     header .navbar a{
+        text-align: center;
         margin:1.5rem;
         padding:1.5rem;
         background:#fff;
