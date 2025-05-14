@@ -138,7 +138,7 @@ header .fa-bars{
 
 .home .content h1{
     font-size: 4rem;
-    color:rgb(170, 87, 143);
+    color:rgb(124, 55, 101);
 }
 
 .home .content h3{
@@ -572,9 +572,9 @@ img {
         padding:2rem;
     }
 
-    section{
-        padding: 2rem;
-    }
+     section{
+        padding-top: 2rem;
+    } 
 
     .home{
         background-position: left;
