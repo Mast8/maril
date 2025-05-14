@@ -31,6 +31,7 @@ section{
 }
 
 .heading{
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 4rem;
     color:#333;
@@ -177,6 +178,7 @@ header .fa-bars{
     padding:1rem 0;
     line-height: 1.5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .home .content span{
