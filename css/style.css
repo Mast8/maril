@@ -35,16 +35,18 @@ section{
     background-color: #581a91;
     color: white;
     font-size: 1.7rem;
-    padding: 14px 25px;
+    padding: 11px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 8px;
     margin-right: 10px;
+    
+    font-weight: bold;
 }
 .linka:hover{
-    color: #581a91;
-    background-color: white;
+    color: white;
+    background-color: rgb(155, 14, 160);
 
 }
 
@@ -179,18 +181,21 @@ header .fa-bars{
     padding-right: 10px;
     color: #581a91;
     font-size: 5rem;
+    
 }
 
- .fa-solid{
+.fa-solid{
     font-size: 4.6rem;
- }
+}
 
 
 .fa-brands:hover, .fa-solid:hover{
-    color: white;
-    
-    
+    color: rgb(155, 14, 160);
 }
+
+
+
+
 
 /* p */
 
